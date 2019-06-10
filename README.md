@@ -3,12 +3,11 @@
 
 
 
-**Dates:**
+**Dates:** June 18th - July 18th
 
-**Time:**
+**Time:** 1 - 3pm
 
-**Days:**
-
+**Days:** Tuesday, Wednesday & Thursday
 
 This workshop series is an interactive and hands-on demonstration of how the web development process works.  
 They will start with website information, images, text, and tools from a client to experience how someone 
@@ -17,7 +16,6 @@ and techniques such as contrast, alignment, color, and proximity while learning 
 The last 2 weeks will focus on bringing the design to life with code.
 
 ### Timeline:
-
   
 **Session 1:** Introduction, Communtiy Agreements, Timeline, Project Breakdown, Github,  & Web Development Process
   
@@ -49,6 +47,4 @@ The last 2 weeks will focus on bringing the design to life with code.
 
 **Session 15:** Project
 
-
-
-![Timeline](/assests/images/Web1Timeline.png)
+![](Images/Web1Timeline.png)
