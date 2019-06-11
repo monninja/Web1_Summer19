@@ -12,8 +12,6 @@
 
 #### Timeline:
 
-![](Images/Web1Timeline.png)
-
 #### Goal:
 
 By the end of the series, members will be able to create a simple website from scratch using HTML, CSS. They will also get exposed to design principles and programs so they have a holistic view of what it takes to create a website.
