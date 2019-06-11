@@ -2,6 +2,8 @@
 
 ## HTML syntax: elements, attributes, and values
 
+### Block-level and inline-level elements
+
 ## Document tree
 
 ## Absolute and relative paths
