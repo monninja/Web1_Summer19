@@ -1,13 +1,13 @@
-##The significance of "index.html"
+## The significance of "index.html"
 
-##HTML syntax: elements, attributes, and values
+## HTML syntax: elements, attributes, and values
 
-##Document tree
+## Document tree
 
-##Absolute and relative paths
+## Absolute and relative paths
 
-##Hyperlinks
+## Hyperlinks
 
-##Ordered, unordered, & definition lists
+## Ordered, unordered, & definition lists
 
-##HTML formatting fundamentals
+## HTML formatting fundamentals
