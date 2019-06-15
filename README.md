@@ -18,7 +18,7 @@ By the end of the series, members will be able to create a simple website from s
 NEST Studios: This website is for the DAT department and the purpose of this website is t house and past, present and future films proejcts created by the DAT dept. The client for this project is Gabe. 
 
 #### Resources: 
-[FreeCodeCamp](https://learn.freecodecamp.org/)
-[Scrimba](https://scrimba.com/)
-[Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-[Devdocs](https://devdocs.io/)
+* [FreeCodeCamp](https://learn.freecodecamp.org/)
+* [Scrimba](https://scrimba.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* [Devdocs](https://devdocs.io/)
