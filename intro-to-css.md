@@ -4,11 +4,11 @@
 * Local styles 
 * Internal style sheets
 * External Style sheets 
-### Using External Style Sheets
-## Link to your sheet in HTML
-## Classes, IDs, Elements
-# Color on the Web
-## Constructing CSS selectors
+## Using External Style Sheets
+#### Link to your sheet in HTML
+#### Classes, IDs, Elements
+*Color on the Web*
+ Constructing CSS selectors
 ## CSS Syntax, code structure
 # Working with images
 ## CSS pseudoclasses
