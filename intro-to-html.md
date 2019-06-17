@@ -139,7 +139,7 @@ The window refers to the browser window. Your document is within this window.
 
 <b>Document Tree</b>
 The document tree looks similar to the DOM, but it is only refering to the elements within your document. The document tree for this page looks like this so far: 
-![](Images/Document-Object-Model.png)
+![](Images/doc-tree.jpg)
 
 
 ### Block-level and inline-level elements
