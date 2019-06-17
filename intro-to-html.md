@@ -1,4 +1,4 @@
-## Before you get started on coding
+## Before you start coding
 
 ### Set up your local environment
 * Local means your page will be on your computer and you can only get to it from your computer by clicking on the page. 
@@ -28,12 +28,15 @@
 * <b>Inspector</b> 
   * You will see this tool again later when you learn Javascript. All you need to know about it now is that you can look at the code of any webpage and try things out without changing them in the actual code!
   * All major browsers have this tool. 
-  * Go to any webpage, right click and click on Inspector in the menu (On Chrome)
   * This is an example of it in action. 
+  ![](Images/facebook-inspector-change.png)
   
 We did this to a friend when they weren’t looking. They got back to their computer and saw that on the page. They were stunned. It goes away when you refresh the page, though. 
 
   * Try it! Go on any website and try to change some of the text. 
+    * Go to any webpage, right click and click on Inspector in the menu (On Chrome)
+    * Once on the inspector, you can see the code that the page you're on is made out of. If you click on a specific part of the page, it takes you to the same part written in the code. 
+    * Type different words on the inspector and watch the text change. 
 
 ## Let's start coding! 
 Ok, I know you're eager to make your own page, so let's get started! 
