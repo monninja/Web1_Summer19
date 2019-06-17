@@ -134,12 +134,12 @@ It makes your page easier to read and it's important to know which elements are 
 
 <b>Document Object Model</b>
 The Document Object Model (DOM) is used when writing Javascript. It helps you orient yourself within the browser when writing code. The DOM looks like this: 
-
+![](Images/Document-Object-Model.png)
 The window refers to the browser window. Your document is within this window. 
 
 <b>Document Tree</b>
 The document tree looks similar to the DOM, but it is only refering to the elements within your document. The document tree for this page looks like this so far: 
-
+![](Images/Document-Object-Model.png)
 
 
 ### Block-level and inline-level elements
