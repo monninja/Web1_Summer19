@@ -122,7 +122,32 @@ and the doctype tag.
          </p>
       </div>
 ```
-The code you wrote to make the background yellow is called inline CSS. CSS is the code that adds style to your page. It stands for Casading Style Sheets. We will explain the Cascading part of the name later in the course. The reason why it's inline is becasue we write it within the HTML on the same line as the element we wanted to modify. 
+The code you wrote to make the background yellow is called inline CSS. CSS is the code that adds style to your page. It stands for Casading Style Sheets. We will explain the Cascading part of the name later in the course. The reason why it's inline is because we wrote it within the HTML on the same line as the element we wanted to modify. 
+
+### Comments
+Comments are used to write notes that the browser or computer will not read. These are for yourself or anyone else looking at your code. 
+* Why write comments? 
+  * To explain your code
+  * To remind yourself to do something in your code
+* When not to write comments? 
+  * When you have named everything in a way that explains what the code does. 
+  * Do not write long paragraphs as comments.
+* How to write comments in HTML
+```html
+<!--This is a comment-->
+```
+Write a comment above all the h tags. 
+```html
+ <div style="background-color:yellow">
+         <!--Remember to delete all of these h tags except one-->
+         <h1>I love Pacman</h1>
+         <h2>I love Pacman</h2>
+         <h3>I love Pacman</h3>
+         <h4>I love Pacman</h4>
+         <h5>I love Pacman</h5>
+         <h6>I love Pacman</h6>
+
+```
 
 ### Document tree & Document Object Model
 OK, let's stop and admire your page. It's only text with a background so far, but it's always good to take a pause, especially because we know that people get lazy with the indentation. You will notice that html doesn't care if you indent or not. It still works. Sometimes, it even works with some typos here and there. It's easy to get lazy. BUT, it totally comes back to get you when your page suddenly doesn't work and it can be any thing. Then you start to edit your many typos and your page still doesn't work. The best thing to do is to save and check often. 
@@ -158,7 +183,27 @@ So far, we've only put block level elements on our page. This means that when yo
 ```
   
 ### Ordered, unordered, & definition lists
+* <b>Ordered List</b>
+```html
+<p>Pacman had many copy cats. These are the latest copy cat games:
+   <ol>
+      <li>[2017] Cacman - On Browser</li>
+      <li>[2017] Teleorpacman - On Browser</li>
+      <li>[2016] Arcade Land - PlayStation 4</li>
+   </ol>
+</p>
+```
 
+* <b>Unordered List</b>
+```html
+<p>Reasons to love Pacman:
+   <ul>
+     <li>It's easy to play</li>
+     <li>It's a classic</li>
+     <li>You can make it easily too!</li>
+   </ul>
+</p>
+```
 
 ### Working with images
 Let's put a picture in our page. It makes everything more fun. 
@@ -183,5 +228,8 @@ If you want the audio to play automatically, click the little checkbox on the em
 
 ### Check for understanding
 * Make another div tag with a different color background to make a new section for your video. 
+* Add an attribute to your h1 tag to change the color of the font. Hint: "color:". 
 * Add your own content to your webpage 
 * How does your document tree look like now? Sketch your current page. 
+
+-Make sure all of them can do the things above. If they are ahead, have them help others. 
