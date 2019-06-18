@@ -66,11 +66,53 @@ Delete the style attribute from your h1 tag so that your code looks like this:
 ```<h1>I love Pacman</h1>```
 Because of your internal style sheet, it will still be blue! Now, put a different title with an h1 tag on your site. All h1 tags will now be blue! 
 
-## Using External Style Sheets
+## Putting your style on external sheet
+Now that you know how CSS works, we will move our styles from the html to an external sheet. It will do the same thing, we will just be referring to it from a different place. Why do we do this, you ask? Your css will soon turn into a monster with many many lines of code. And because it's just nice to look at when it's formatted all spaced out, it will be a long document. We do it for readability. It's super helpful to organize things in a way we can read them and not feel overhwhelmed when we look at it. 
 
+1. Take the code inside the ```<style></style>``` tags- this one: 
+```css
+  h1 {
+   color:blue;
+  }
+```
+Cut it- Command OR CTRL + X
+
+2. Then put it in a New File on your text editor. 
+3. Put the file inside the same folder where you have all your other website files. 
+4. Save the file and name it style.css - that is the conventional name for your website styles. 
+
+If you save your file and refresh your page, you will notice that your headers will not have the styles applied anymore. That is because, you are not done yet! 
 
 ### Link to your sheet in HTML
+We need to tell your html file to reference the css sheet for its styles. 
+
+1. Go to the ```<head></head>``` tag. - remember, this is where you  information your html file needs but will not be visible on your page. 
+2. Make a link reference tag and put the relative path of your new css file in there. This is telling your html to reference style from an external sheet. 
+
+```html
+<link rel="stylesheet" href="style.css" >
+```
+
+Since your css file is in the root folder, do not have to put the absolute path. 
+
+Ok now save your file, refresh your page again and boom! You have your style. You only have to do this once. Now you are good to go! 
+
 ### Classes, IDs, Elements
+We are going to do more exciting stuff than just changing the color of some text. You probably noticed that your divs still have attributes in the html to change the background color. We want to move this to the css file. You pprobably guessed that to change the background of your div, you have to write css that looks something like this: 
+
+```css
+div {
+   background-color: yellow; 
+}
+```
+
+1. Write that into your css. 
+2. Delete all attributes ```style=""``` from all your divs
+3. Save your file 
+4. Refresh
+
+
+
 *Color on the Web*
  Constructing CSS selectors
  Interesting...
