@@ -62,14 +62,15 @@ selector {
 This is the basic structure and syntax of css. Somewhere along the way, we will run into new little things like how to reference specific types of selectors and making variables- for now this is it. 
 
 ### Check if styles are working 
-Delete the style attribute from your h1 tag so that you code looks like this: 
+Delete the style attribute from your h1 tag so that your code looks like this: 
 ```<h1>I love Pacman</h1>```
 Because of your internal style sheet, it will still be blue! Now, put a different title with an h1 tag on your site. All h1 tags will now be blue! 
 
 ## Using External Style Sheets
 
-#### Link to your sheet in HTML
-#### Classes, IDs, Elements
+
+### Link to your sheet in HTML
+### Classes, IDs, Elements
 *Color on the Web*
  Constructing CSS selectors
  Interesting...
