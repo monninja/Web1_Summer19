@@ -1,5 +1,5 @@
 ## Instructors
-Makes sure you go over EVERY topic in here. The foundations are REALLY important. The order in which it's done is also intentional. Please try to keep the order. If you feel like putting things in a different order is easier to understand, please log it somewhere. Do NOT skip concepts. The best way to prepare is to do a website yourself.
+Makes sure you go over EVERY topic in here. The foundations are REALLY important. The exception is probably the inspector tool. We will not be using it much in web design for beginners, but it comes in handy later on. The order in which it's done is also intentional. Please try to keep the order. If you feel like putting things in a different order is easier to understand, please log it somewhere. Do NOT skip concepts. The best way to prepare is to do a website yourself.
 
 ## Before you start coding
 
@@ -28,7 +28,7 @@ Makes sure you go over EVERY topic in here. The foundations are REALLY important
   * When you type in a URL, for example: roblox.com, the browser knows which server to talk to about getting the images and files necessary to display the page. 
   * Roblox.com is a URL. Think of it as an address to the correct server with the files. 
   * We will get your web page online so that the whole world can access it with its own URL later.- for now, it is local. 
-* <b>Inspector</b> 
+* <b>Inspector</b> *Instructor note: You can skip this*
   * You will see this tool again later when you learn Javascript. All you need to know about it now is that you can look at the code of any webpage and try things out without changing them in the actual code!
   * All major browsers have this tool. 
   * This is an example of it in action. 
@@ -155,8 +155,6 @@ OK, let's stop and admire your page. It's only text with a background so far, bu
 <b>So, why is indentation so important?</b>
 It makes your page easier to read and it's important to know which elements are parents and which are children. This can have any implications when you are styling and adding interactivity with Javascript. Javascript and CSS work with HTML elements. For example, you can see that anything that is added within the div with the yellow background, will have a yellow background. If you add something outside of that, it will not. 
 
-<b>Try it for yourself:</b> Add another paragraph inside and outside of the div with a yellow background. 
-
 <b>Document Object Model</b>
 The Document Object Model (DOM) is used when writing Javascript. It helps you orient yourself within the browser when writing code. The DOM looks like this: 
 ![](Images/Document-Object-Model.png)
@@ -166,23 +164,9 @@ The window refers to the browser window. Your document is within this window.
 The document tree looks similar to the DOM, but it is only refering to the elements within your document. The document tree for this page looks like this so far: 
 ![](Images/doc-tree.jpg)
 
-
-### Block-level and inline-level elements
-So far, we've only put block level elements on our page. This means that when you put down the element, it automatically makes space in between other elements and it makes a visual block. We are going to put in some inline elements in the paragraph block. 
-* Hyperlinks- these are links to external web pages. 
-  * ```<a href="https://en.wikipedia.org/wiki/Pac-Man">Wikipedia for pacman</a>```
-* Quick formatting elements  
-  * ```<b>This makes text bold</b>```
-  * ```<i>This makes text italics</i>```
-  * ```<strong>This also makes text bold</strong>```
-* This is how it looks like on your paragraph text: 
-```html
-         <p>
-          <a href="https://en.wikipedia.org/wiki/Pac-Man">Pacman</a> was made by <strong>Namco</strong> in the 1980s and it captured <i>everyone's</i> hearts.
-         </p>
-```
-  
 ### Ordered, unordered, & definition lists
+We are going to add new paragraphs to our page and put them outside of the div tag with a yellow background. 
+
 * <b>Ordered List</b>
 ```html
 <p>Pacman had many copy cats. These are the latest copy cat games:
@@ -205,12 +189,105 @@ So far, we've only put block level elements on our page. This means that when yo
 </p>
 ```
 
+You new code should look like this: 
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+       Pacman Tribute
+      </title>
+   </head>
+   <body>
+      <div style="background-color:yellow">
+         <h1>I love Pacman</h1>
+         <h2>I love Pacman</h2>
+         <h3>I love Pacman</h3>
+         <h4>I love Pacman</h4>
+         <h5>I love Pacman</h5>
+         <h6>I love Pacman</h6>
+         <p>
+         Pacman was made by Namco in the 1980s and it captured everyone's hearts.
+         </p>
+      </div>
+      <p>Pacman had many copy cats. These are the latest copy cat games:
+         <ol>
+           <li>[2017] Cacman - On Browser</li>
+           <li>[2017] Teleorpacman - On Browser</li>
+           <li>[2016] Arcade Land - PlayStation 4</li>
+         </ol>
+      </p>
+      <p>Reasons to love Pacman:
+        <ul>
+          <li>It's easy to play</li>
+          <li>It's a classic</li>
+          <li>You can make it easily too!</li>
+        </ul>
+      </p>
+   </body>
+</html>
+```
+Notice how you new paragraph blocks do not have a yellow background. That is because they are outside the container (div) that has a yellow background. 
+
+### Block-level and inline-level elements
+So far, we've only put block level elements on our page. This means that when you put down the element, it automatically makes space in between other elements and it makes a visual block. We are going to put in some inline elements in the paragraph block. 
+* Hyperlinks- these are links to external web pages. 
+  * ```<a href="https://en.wikipedia.org/wiki/Pac-Man">Wikipedia for pacman</a>```
+  * Put the link on your page and click it. 
+  * You navigate to that page and go away from your site. 
+  * A helpful attribute for link elements is ```target="_blank".``` If you put this inside the element tag, it will open a new window automatically when you click it. 
+* Quick formatting elements  
+  * ```<b>This makes text bold</b>```
+  * ```<i>This makes text italics</i>```
+  * ```<strong>This also makes text bold</strong>```
+  
+* This is how it would look like on your paragraph text: 
+```html
+         <p>
+          <a href="https://en.wikipedia.org/wiki/Pac-Man" target="_blank">Pacman</a> was made by <strong>Namco</strong> in the 1980s and it captured <i>everyone's</i> hearts.
+         </p>
+```
+
 ### Working with images
-Let's put a picture in our page. It makes everything more fun. 
-There are two ways of putting a picture on our page: 
-1. Your file directory
-  * Absolute and relative paths
-2. URL
+Let's put pictures on our page. It makes everything more fun. 
+<b>There are two ways of putting a picture on our page:</b>
+1. URL
+```html
+   <img src="https://cdn.instructables.com/FJJ/UTLA/HJKBTJJ9/FJJUTLAHJKBTJJ9.LARGE.jpg"/>
+```
+  * You can find a picture anywhere online and copy the link by right clicking and copying the link address. 
+  * Then you paste the link address into the src attribute in the image tag. 
+  * In this case, the picture is too big for my page. I am going to add a width attribute  to resize my image: ```width:"200"```
+  
+2. Your file directory
+The second way is by downloading a picture, putting it into your directory folder called images in your website's root folder and then linking to that. 
+
+*Why would you want to do all that?*
+Once the picture is in your root folder, you own that picture and you have full control over it. The link is less likely to break because the picture is there until you take it out. Someone can decide to take the picture you linked to externally down and now you have a broken link. 
+
+The path my picture is in is: my-favorite-game-site --> images --> pacman-google-doodle.png
+Since my code is in the index file, which is in my root folder, I only have to reference the folder after that to create the path to the picture: 
+```html
+ <img src="images/pacman-google-doodle.png"/>
+```
+
+<b>Absolute and Relative Paths</b> 
+```html
+   <img src="https://cdn.instructables.com/FJJ/UTLA/HJKBTJJ9/FJJUTLAHJKBTJJ9.LARGE.jpg"/>
+```
+The URL above is an absolute path because it indicates every part of the address or location of the image. It starts with the server address and then goes into the whole folder hierarchy in the server to get to the picture. 
+
+```html
+ <img src="images/pacman-google-doodle.png"/>
+```
+The tag above has a relative path because the path is relative to where reference document is (which is the root folder)- so you do not have to name the root folder for the browser to know where it is. 
+
+The absolute path of the same picture would look like this:
+
+```html
+<img src= "file:///Users/member/Desktop/web-design-for-beginners-2019/my-favorite-game-site/images/pacman-google-doodle.png"/>
+```
+There is no need to write all that out if the file you are referncing the picture with is in the same root folder. 
 
 ### Even more fun: video and audio
 Let's put some gameplay and audio on this page. 
@@ -227,9 +304,9 @@ Same thing as the video embeds. Go to SoundCloud to get good music.
 If you want the audio to play automatically, click the little checkbox on the embed box. 
 
 ### Check for understanding
-* Make another div tag with a different color background to make a new section for your video. 
+* Make another div tag with a different color background for other sections on your webpage. (Think about how your want to divide your content, we will work with layouts to move content where you want it later. 
 * Add an attribute to your h1 tag to change the color of the font. Hint: "color:". 
-* Add your own content to your webpage 
+* Add more of your own content to your webpage 
 * How does your document tree look like now? Sketch your current page. 
 
 -Make sure all of them can do the things above. If they are ahead, have them help others. 
