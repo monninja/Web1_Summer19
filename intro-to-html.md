@@ -280,14 +280,14 @@ The URL above is an absolute path because it indicates every part of the address
 ```html
  <img src="images/pacman-google-doodle.png"/>
 ```
-The tag above has a relative path because the path is relative to where reference document is (which is the root folder)- so you do not have to name the root folder for the browser to know where it is. 
+The tag above has a relative path because the path is relative to where the reference document is (which is the root folder)- so you do not have to name the root folder for the browser to know where it is. 
 
 The absolute path of the same picture would look like this:
 
 ```html
 <img src= "file:///Users/member/Desktop/web-design-for-beginners-2019/my-favorite-game-site/images/pacman-google-doodle.png"/>
 ```
-There is no need to write all that out if the file you are referncing the picture with is in the same root folder. 
+There is no need to write all that out if the file where you are referencing the picture is in the same root folder. 
 
 ### Even more fun: video and audio
 Let's put some gameplay and audio on this page. 
@@ -305,7 +305,7 @@ If you want the audio to play automatically, click the little checkbox on the em
 
 ### Check for understanding
 * Make another div tag with a different color background for other sections on your webpage. (Think about how your want to divide your content, we will work with layouts to move content where you want it later. 
-* Add an attribute to your h1 tag to change the color of the font. Hint: "color:". 
+* Add an attribute to your h1 tag to change the color of the font. Hint: "color:". Delete all other h tags and your comment on having to delete all other h tags. 
 * Add more of your own content to your webpage 
 * How does your document tree look like now? Sketch your current page. 
 
