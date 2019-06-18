@@ -7,6 +7,7 @@ Makes sure you go over EVERY topic in here. The foundations are REALLY important
 * Local means your page will be on your computer and you can only get to it from your computer by clicking on the page. 
 * Nobody else can see your page from the browser, unless they have your file on their computer. 
 * We will be making a website that is a tribute to your favorite game or a favorite level or world you’ve built in a game, maybe even a game you’ve built.
+* If you're not into games, you can do a tribute page about anything- a pet, a person, a place- but make sure you have pictures or they are easy to find. 
 * Start by making a folder for your website somewhere on your computer- remember where it is! 
   * Since we want to set up good habits, we recommend that you name things with names that make sense so you can find them later and know what is in those files. 
   * Example of good naming my-favorite-game-site (avoid spaces in your folder name) 
