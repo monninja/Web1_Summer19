@@ -300,8 +300,9 @@ Every video service has a place to get the embed code to put the video on a web 
 * Refresh your page
 
 2. Audio embeds 
-Same thing as the video embeds. Go to SoundCloud to get good music. 
-If you want the audio to play automatically, click the little checkbox on the embed box. 
+* Same thing as the video embeds. 
+* Go to SoundCloud to get audio. If you know another service, you can go there. 
+* If you want the audio to play automatically, click the little checkbox on the embed box. 
 
 ### Check for understanding
 * Make another div tag with a different color background for other sections on your webpage. (Think about how your want to divide your content, we will work with layouts to move content where you want it later. 
