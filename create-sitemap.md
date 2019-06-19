@@ -22,4 +22,14 @@ While doing this step always think about the audience. Image yourself as visitor
 
 ### Step 2: Priortize your content
 
-Create a hierarchy of pages based on importance and how you want them to be indexed. Prioritize your content into tiers that follow a logical hierarchy. 
+Create a hierarchy of pages based on importance and how you want them to be indexed. Prioritize your content into tiers that follow a logical hierarchy.
+
+![](Images/priortize-info.png)
+
+### Step 3: Start the sketch
+
+Once you have the structure and heiarchy done. Sketch it out and see what that looks like, you think of this like a mock up before the protoype. Sketching it out you can visiually see how the pages flow and how they connect.
+
+
+
+### Step 3: Bring the Map to life 
