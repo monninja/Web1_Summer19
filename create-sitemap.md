@@ -30,6 +30,10 @@ Create a hierarchy of pages based on importance and how you want them to be inde
 
 Once you have the structure and heiarchy done. Sketch it out and see what that looks like, you think of this like a mock up before the protoype. Sketching it out you can visiually see how the pages flow and how they connect.
 
+![](Images/sitemap-sketch.png)
+
+### Step 4: Bring the Map to life
+
+There are various free or paid tools out there that will help you bring your sitemap sketch to life. The reason is this is step is because you cant turn in a sketch of your sitemap, it does not look for professional enough, so take the time to use tools to give your sitemap the presentation edge: 
 
 
-### Step 3: Bring the Map to life 
