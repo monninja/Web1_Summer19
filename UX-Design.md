@@ -39,3 +39,4 @@ This level is met when users enojy the product or service so much that they shar
 
 **Level 6: Significant Level**
 
+This level is met when the user loves it and they reflect about how much the love it. 
