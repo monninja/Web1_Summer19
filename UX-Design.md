@@ -59,7 +59,7 @@ These are the levels you aim for to capture the audience. Most of the times peop
 
 5. **Don't Make Me Think!** My understanding is to use the most simple way to help users achieve their goals in the shortest time. 
 
-### Lets find some exmamples.
+### Lets find some examples.
 
 Find at least 3 websites online. Find one that you like, that you don’t like, and one that you love. Explain why they have good UX or bad UX. What would you improve? Would you place something differently? 
 
@@ -67,14 +67,22 @@ Find at least 3 websites online. Find one that you like, that you don’t like, 
 
 To really acheive a successful UX design for a product it is important to know who our user is. Let's get to know our user.
 
-You are the users for the NEST Studios so we are going to create a USER scenario activity: 
+You are the users for the NEST Studios so we are going to create a USER role play activity: 
 
-1. **User One:** You are the ype of user that stumbles on the website because you are aintersted in art, music, and film. You don't really know why you are there but you found it intersting. 
+Pair Up with a memeber, one of you will be a user and other wil be a UX designer trying to find out information about the user.  
 
-2. **User Two:** You are the type of user that that knows exaclty why you are visiting the website, you are here t find opporuntites to get learn about film and get more involved. 
+1. **User One:** *Random Youth from the community Age: 17* You are the type of user that stumbles on the website because you are aintersted in art, music, and film. You don't really know why you are there but you found it intersting. 
+
+2. **User Two:** *Youth that is involved in DAT and wants to see past projects.* You are the type of user that that knows exaclty why you are visiting the website, you are here t find opporuntites to get learn about film and get more involved. 
+
+3.**User Three:** *Donor Age: 51 Worked at Disney for 16 years* This user is a donor that was directed to this website to see what kind of projects his money would fund. 
+
+4.**User Four:** *Recruiter from the community that wants to hire a NEST memeber to be part of his drone business* This user is looking for portfolios. 
+
+
+As you are role playing the user do your best to put yourself in thier shoes and figure out what you would want the website to have? 
 
 #### Take a breath and put yourself in this users shoes. What are you looking for in this website? 
-
 
 
 
