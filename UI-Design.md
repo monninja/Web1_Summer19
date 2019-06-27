@@ -11,9 +11,9 @@ When it’s done well, users don’t even notice it. When it’s done poorly, us
 
 In order too apply UI Design to this product lets explore the fundamentals that will guide our design to be a user focused design.
 
-### The principles are:
+## The principles are:
 
-**1. Place users in control of the interface**
+### **1. Place users in control of the interface**
 
 Effective user interfaces give them a sense of control over a product. Keeping them in control makes the feel comfortable and they will learn the product faster. 
 
@@ -33,7 +33,7 @@ Another good example, is GMAILS option to undo an sent email or has been trashed
 
 ![](Images/skilllevels.png)
 
-**2. Make it comfortable to interact with a product** 
+### **2. Make it comfortable to interact with a product** 
 
 Elminate all elements that are not helpful for your users. Simplify interfaces by removing unnecessary elements or content that does not directly support user tasks. Strive to design your app in a way that all information presented on the screen will be valuable and relevant. Examine every element and ask, “Is this really needed?”
 
@@ -51,13 +51,13 @@ Elminate all elements that are not helpful for your users. Simplify interfaces b
 
 ![](Images/rwe.png)
 
-**3. Reduce cognitive load** 
+### **3. Reduce cognitive load** 
 
 Reduce the leanring cost of trying a new product it is better to avoid making users think.work too hard to use your product. Features such as *recognition over recall* designer promote this by providing visual aids and context sensitive details so users recognize it. 
 
 ![](Images/vcues.png)
 
-**4. Make user interfaces consistent**
+### **4. Make user interfaces consistent**
 
 Consistency is one of the strongest contributors to usability and learnability. The main idea of consistency is the idea of transferable knowledge — let users transfer their knowledge and skills from one part of an app’s UI to another, and from one app to another app.
 
