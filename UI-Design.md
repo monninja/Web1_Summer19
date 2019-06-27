@@ -9,7 +9,9 @@ When it’s done well, users don’t even notice it. When it’s done poorly, us
 
 ![](Images/uxvsui.png)
 
-In order too apply UI Design to this product lets explore the fundamentals that will guide our design to be a user focused design.
+While UX refers to how the audience will navigate through the page, and making it as easy as possible for them, UI refers to the consideration of how to put design elements together that will make the website pleasing to look at. 
+
+In order too apply UI Design to products lets explore the fundamentals that will guide our design to be a user focused design.
 
 ## The principles are:
 
@@ -78,6 +80,14 @@ Now, that we have those 4 golden rules lets look at the principles of design to 
 ![](Images/carp.png)
 
 
+[Let play a game. Point out the bad design in the pictures and tell me what UI or CARP is missing that could solve the design error](https://www.boredpanda.com/poor-design-decisions-fails/?utm_source=google&utm_medium=organic&utm_campaign=organic)
+### Tools to Practice Design: 
+
+[1. Pixact.ly](https://pixact.ly/)
+
+[2.Color Method](https://color.method.ac/)
+
+[3.Kern Type](https://type.method.ac/#)
 
 
         
