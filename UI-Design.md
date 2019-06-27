@@ -81,6 +81,7 @@ Now, that we have those 4 golden rules lets look at the principles of design to 
 
 
 [Let play a game. Point out the bad design in the pictures and tell me what UI or CARP is missing that could solve the design error](https://www.boredpanda.com/poor-design-decisions-fails/?utm_source=google&utm_medium=organic&utm_campaign=organic)
+
 ### Tools to Practice Design: 
 
 [1. Pixact.ly](https://pixact.ly/)
@@ -89,5 +90,14 @@ Now, that we have those 4 golden rules lets look at the principles of design to 
 
 [3.Kern Type](https://type.method.ac/#)
 
+### Design Resources: 
 
-        
+[1. Adbobe Beginners Cheat Sheet](https://www.pgsd.org/cms/lib07/PA01916597/Centricity/Domain/202/illustrator_for_beginners_tastytuts.pdf)
+
+[2. Adobe Color Wheel](https://color.adobe.com/create)
+
+[3. Fonts](https://www.dafont.com/)
+
+[4. Inspiration](https://www.pinterest.com/?autologin=true)
+
+[5. Just google it](https://www.google.com/)
