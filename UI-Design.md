@@ -4,7 +4,7 @@
 
 **User interface (UI) Design** is the process of making interfaces in software or computerized devices with a focus on looks or style. Designers aim to create designs users will find easy to use and pleasurable. 
 
-Even though this is mored focused on the look and style of the product the user is still at the center of this design. 
+Even though this is more focused on the look and style of the product, the user is still at the center of this design. 
 When it’s done well, users don’t even notice it. When it’s done poorly, users can’t get past it to efficiently use a product.
 
 ![](Images/uxvsui.png)
