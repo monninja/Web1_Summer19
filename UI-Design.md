@@ -25,8 +25,6 @@ Another good example, is GMAILS option to undo an sent email or has been trashed
 
 - Provide Visual Cues: They serve as remainders, points of reference as they move through your product. Page titles, highlights for currently selected navigation options, and other visual aids give users an immediate view of where they are in the interface. A user should never be wondering, “Where am I?” or “How did I get to this screen?”
 
-![](Images/vcues.png)
-
 - Predictability. Users should be provided with cues that help them predict the result of an action. A user should never be wondering, “What do I need to press in order to do my task?” or “What is this button for?”
 
 ![](Images/predictprocess.png)
@@ -56,6 +54,8 @@ Elminate all elements that are not helpful for your users. Simplify interfaces b
 **3. Reduce cognitive load** 
 
 Reduce the leanring cost of trying a new product it is better to avoid making users think.work too hard to use your product. Features such as *recognition over recall* designer promote this by providing visual aids and context sensitive details so users recognize it. 
+
+![](Images/vcues.png)
 
 **4. Make user interfaces consistent**
 
