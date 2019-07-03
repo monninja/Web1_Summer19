@@ -143,10 +143,13 @@ With classes, you can put them multiple places in your code to carry over all th
 *IDs*
 IDs serve a similar function as classes, but they are used slightly differently. Classes are allowed to be in multiple places in your html, but IDs should be unique and should only be placed in one div at a time. Also, you cannot add more than one ID in one div.
 
-
-
 *Color on the Web*
-# Working with images
+### Working with images
 ### CSS pseudoclasses
-# Text and link color
+### Text and link color
 
+## CSS box model
+
+## CSS Basic Layout properties
+
+We will not be sticking with these layout properties in the project site, but it's good to know those options exist.
