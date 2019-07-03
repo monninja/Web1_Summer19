@@ -130,21 +130,51 @@ In order to write class selectors in css, you have to start them with a [.] befo
    background-color: blue;
 }
 ```
-Activity: Do the same things to make divs with a yellow and pink background. 
+*Demo:* Do the same things to make divs with a yellow and pink background. 
 
 One important thing for beginners to note is that the name of the selector does not do anything. You can name one of your selectors elephant and it would not change anything. Try it and refresh. 
 
 What is actually adding the color is what is inside the brackets. However, we want to get used to naming things in ways that are helpful and decriptive. We will go over a popular naming convention we are using later on. 
 
-You can add a new background to any div with a class. Change the pink background div by naming it ```class="box--blue```. 
+You can add a new background to any div with a class. 
+
+*Demo:* Change the pink background div by naming it ```class="box--blue"```. 
 
 With classes, you can put them multiple places in your code to carry over all the properties. 
 
 *IDs*
-IDs serve a similar function as classes, but they are used slightly differently. Classes are allowed to be in multiple places in your html, but IDs should be unique and should only be placed in one div at a time. Also, you cannot add more than one ID in one div.
+IDs serve a similar function as classes, but they are used slightly differently. Classes are allowed to be in multiple places in your html, but IDs should be unique and should only be placed in one div at a time. 
 
-*Color on the Web*
+One cool function of an ID is that you can call on the specific element in a URL by putting a hash at the end of the URL and then the name of the ID. Let's try it. 
+
+We're going to create an ID div for the Google Doodle. Make sure you take it out of the div it was in and make a new one for it. 
+
+HTML: 
+```html
+<div id="google-doodle">
+  <img src="images/pacman-google-doodle.png"/>
+</div>
+```
+
+CSS: 
+```css
+#google-doodle{
+  background-color: green;
+  text-align: center; /*This makes the doodle or any content go to the center (horizontally)*/
+}
+```
+Demo: Add #google-doodle to the end of the URL of your web page. 
+
+IDs are not only good for skipping to specific content, but they are also helpful when writing Javascript. getElementById is a method in Javascript that allows you to add functionality to a specific thing on the page. 
+
+### Color on the Web
+We've been writing color with words, but you can get more specific by going on any color wheel and getting the hex code. A hex code is a 6 digit number that represents a color on the color wheel spectrum. 
+
+*Demo:* Go to the [https://color.adobe.com/create](Adobe Color Wheel) to get some colors. Or, you can get your colors from illustrator. Replace all the colors written in words with hex codes you want. 
+
 ### Working with images
+
+
 ### CSS pseudoclasses
 ### Text and link color
 
@@ -153,3 +183,4 @@ IDs serve a similar function as classes, but they are used slightly differently.
 ## CSS Basic Layout properties
 
 We will not be sticking with these layout properties in the project site, but it's good to know those options exist.
+Ok, you've built a great first page! Good job! First pages always have random colors and wacky things on it. Say goodbye to this page because you'll probably never build anything like this again. Take your beautiful mockup and get ready to create a beautiful, professionally-coded live version. 
