@@ -180,7 +180,13 @@ We've been writing color with words, but you can get more specific by going on a
 
 ## CSS box model
 
+## More CSS formatting
+Animation 
+Borders
+Radius 
+box shadow
+
 ## CSS Basic Layout properties
 
 We will not be sticking with these layout properties in the project site, but it's good to know those options exist.
-Ok, you've built a great first page! Good job! First pages always have random colors and wacky things on it. Say goodbye to this page because you'll probably never build anything like this again. Take your beautiful mockup and get ready to create a beautiful, professionally-coded live version. 
+Ok, you've built a great first page! Good job! First pages always have random colors and wacky things on it. Say goodbye to this page because you'll probably never build anything like this again. It was a great learning experience. Take your beautiful mockup and get ready to create a beautiful, professionally-coded live version. 
