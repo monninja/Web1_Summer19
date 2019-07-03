@@ -61,7 +61,7 @@ selector {
 ```
 This is the basic structure and syntax of css. Somewhere along the way, we will run into new little things like how to reference specific types of selectors and making variables- for now this is it. 
 
-### Check if styles are working 
+### Demo: Check if styles are working 
 Delete the style attribute from your h1 tag so that your code looks like this: 
 ```<h1>I love Pacman</h1>```
 Because of your internal style sheet, it will still be blue! Now, put a different title with an h1 tag on your site. All h1 tags will now be blue! 
@@ -111,7 +111,7 @@ div {
 3. Save your file 
 4. Refresh
  
- *Classes*
+ **Classes**
 Now, you probably noticed that ALL your divs changed to yellow. That's because the selector is calling on all divn elements. In order to set different colors for different divs, you have to add a class. A class is a name you give to a div that allows you to make a selector with different properties in css. 
 
 Let's make a content div with a yellow, blue and pink background. 
@@ -130,7 +130,7 @@ In order to write class selectors in css, you have to start them with a [.] befo
    background-color: blue;
 }
 ```
-*Demo:* Do the same things to make divs with a yellow and pink background. 
+**_Demo:_** Do the same things to make divs with a yellow and pink background. 
 
 One important thing for beginners to note is that the name of the selector does not do anything. You can name one of your selectors elephant and it would not change anything. Try it and refresh. 
 
@@ -138,11 +138,11 @@ What is actually adding the color is what is inside the brackets. However, we wa
 
 You can add a new background to any div with a class. 
 
-*Demo:* Change the pink background div by naming it ```class="box--blue"```. 
+**_Demo:_** Change the pink background div by naming it ```class="box--blue"```. 
 
 With classes, you can put them multiple places in your code to carry over all the properties. 
 
-*IDs*
+**IDs**
 IDs serve a similar function as classes, but they are used slightly differently. Classes are allowed to be in multiple places in your html, but IDs should be unique and should only be placed in one div at a time. 
 
 One cool function of an ID is that you can call on the specific element in a URL by putting a hash at the end of the URL and then the name of the ID. Let's try it. 
@@ -163,19 +163,62 @@ CSS:
   text-align: center; /*This makes the doodle or any content go to the center (horizontally)*/
 }
 ```
-Demo: Add #google-doodle to the end of the URL of your web page. 
+**_Demo:_** Add #google-doodle to the end of the URL of your web page. 
 
 IDs are not only good for skipping to specific content, but they are also helpful when writing Javascript. getElementById is a method in Javascript that allows you to add functionality to a specific thing on the page. 
 
 ### Color on the Web
 We've been writing color with words, but you can get more specific by going on any color wheel and getting the hex code. A hex code is a 6 digit number that represents a color on the color wheel spectrum. 
 
-*Demo:* Go to the [Adobe Color Wheel](https://color.adobe.com/create) to get some colors. Or, you can get your colors from illustrator. Replace all the colors written in words with hex codes you want. 
+**_Demo:_** Go to the [Adobe Color Wheel](https://color.adobe.com/create) to get some colors. Or, you can get your colors from illustrator. Replace all the colors written in words with hex codes you want. 
 
 ### Working with images
+You can add a background with images inside a div. This works well when you want to add patterns or just a background image in the place of a solid color. 
 
+We will start by putting an image as the background and have it fill the entirety of the div. 
+
+We will make the div with the ID of "google-doodle" have the doodle as the background. 
+
+Let's start with the css. It will look like this: 
+```css
+#google-doodle{
+  width: 100%;
+  height: 500px;
+  background-image: url("images/pacman-google-doodle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+```
+**Explanation of code:** 
+1. Setting the width to 100% makes it so that it takes up that much of the page, no matter what size the screen is. 
+2. We set the height to a more specific unit: px. This means that the div will take 500px no matter what the size of the screen is. The space will look larger in height on a phone. 
+3. You will put the doodle poll inside of background-image- this makes the doodle poll the background of the div. 
+4. cover makes it so that the image covers the entirety of the div, but keeps it's proportions. 
+5. background-repeat- we will see what this does later. Right now, we will set it to no-repeat. 
+6. We will set the background attachment (relative to the page) as fixed. This creates a paralax effect when you scroll down the page. 
+7. Refresh the page and see how it looks! 
+
+**Background shorthand**
+We are able to reduce to amount of lines we write by combining properties into one. We can do this in a lot of instances and there is always an order to follow in order for the shorthand to work. 
+
+Let's reduce the top background code into just two lines. 
+
+```css
+  background: url("images/pacman-google-doodle.png") no-repeat fixed;
+  background-size: cover;
+```
+Background size needs it's own line. Everything else can do in one line and it has to be in that order for it to work. 
+background: image repeat attachment
+
+**_Demo_**: Change the attachment to scroll and see what difference it makes. 
+
+**_Challenge_**: 
+Use the small pacman picture on the page to make a pattern on another div. hint: You will be using the repeat property in a different way. 
 
 ### CSS pseudoclasses
+
+
 ### Text and link color
 
 ## CSS box model
