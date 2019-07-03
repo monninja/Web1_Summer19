@@ -170,7 +170,7 @@ IDs are not only good for skipping to specific content, but they are also helpfu
 ### Color on the Web
 We've been writing color with words, but you can get more specific by going on any color wheel and getting the hex code. A hex code is a 6 digit number that represents a color on the color wheel spectrum. 
 
-*Demo:* Go to the [https://color.adobe.com/create](Adobe Color Wheel) to get some colors. Or, you can get your colors from illustrator. Replace all the colors written in words with hex codes you want. 
+*Demo:* Go to the [Adobe Color Wheel](https://color.adobe.com/create) to get some colors. Or, you can get your colors from illustrator. Replace all the colors written in words with hex codes you want. 
 
 ### Working with images
 
