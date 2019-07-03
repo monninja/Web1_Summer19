@@ -98,7 +98,7 @@ Since your css file is in the root folder, do not have to put the absolute path.
 Ok now save your file, refresh your page again and boom! You have your style. You only have to do this once. Now you are good to go! 
 
 ### Classes, IDs, Elements
-We are going to do more exciting stuff than just changing the color of some text. You probably noticed that your divs still have attributes in the html to change the background color. We want to move this to the css file. You pprobably guessed that to change the background of your div, you have to write css that looks something like this: 
+We are going to do more exciting stuff than just changing the color of some text. You probably noticed that your divs still have attributes in the html to change the background color. We want to move this to the css file. You probably guessed that to change the background of your div, you have to write css that looks something like this: 
 
 ```css
 div {
@@ -110,15 +110,43 @@ div {
 2. Delete all attributes ```style=""``` from all your divs
 3. Save your file 
 4. Refresh
+ 
+ *Classes*
+Now, you probably noticed that ALL your divs changed to yellow. That's because the selector is calling on all divn elements. In order to set different colors for different divs, you have to add a class. A class is a name you give to a div that allows you to make a selector with different properties in css. 
+
+Let's make a content div with a yellow, blue and pink background. 
+
+In html, you would add ```class="box--yellow"``` to one div, 
+```class="box--blue"``` to another div, and 
+```class="box--pink"``` to another div. 
+
+One div would look like this, with some content in between: 
+```html
+<div class="box--blue">With all you content in between</div>
+```
+In order to write class selectors in css, you have to start them with a [.] before the name of the class.  
+```css
+.box--blue {
+   background-color: blue;
+}
+```
+Activity: Do the same things to make divs with a yellow and pink background. 
+
+One important thing for beginners to note is that the name of the selector does not do anything. You can name one of your selectors elephant and it would not change anything. Try it and refresh. 
+
+What is actually adding the color is what is inside the brackets. However, we want to get used to naming things in ways that are helpful and decriptive. We will go over a popular naming convention we are using later on. 
+
+You can add a new background to any div with a class. Change the pink background div by naming it ```class="box--blue```. 
+
+With classes, you can put them multiple places in your code to carry over all the properties. 
+
+*IDs*
+IDs serve a similar function as classes, but they are used slightly differently. Classes are allowed to be in multiple places in your html, but IDs should be unique and should only be placed in one div at a time. Also, you cannot add more than one ID in one div.
 
 
 
 *Color on the Web*
- Constructing CSS selectors
- Interesting...
- https://www.geeksforgeeks.org/css-attribute-selector/
-
 # Working with images
-## CSS pseudoclasses
+### CSS pseudoclasses
 # Text and link color
 
