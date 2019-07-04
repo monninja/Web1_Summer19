@@ -218,10 +218,31 @@ Use the small pacman picture on the page to make a pattern on another div. hint:
 
 ### CSS pseudoclasses
 
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+##### The syntax: 
+
+```
+selector:pseudo-class {
+  property:value;
+}
+```
 
 ### Text and link color
 
 ## CSS box model
+
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+
+![](Images/cssboxmodel.png)
 
 ## More CSS formatting
 Animation 
