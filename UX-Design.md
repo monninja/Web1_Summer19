@@ -61,7 +61,22 @@ These are the levels you aim for to capture the audience. Most of the times peop
 
 ### Lets find some examples.
 
-Find at least 3 websites online. Find one that you like, that you don’t like, and one that you love. Explain why they have good UX or bad UX. What would you improve? Would you place something differently? 
+![](Images/badexample1.png)
+![](Images/badexample2.png)
+![](Images/badexample3.png)
+![](Images/badexample4.png)
+
+
+## Activty
+
+We are going to pair up and work togtehr to fuy understand our user. Pull out a user from the bin and you are going to have to figure out:
+
+**WHY:** Motives and reasons they are on the UCSC quarry website
+
+**WHAT:** What kind of features will they need to complete thier task? Think about functionality and features
+
+**HOW:** How would the user like, prefer, that feature, functionlity to be presented?
+
 
 ## **U**ser e**X**pereince is the key
 
