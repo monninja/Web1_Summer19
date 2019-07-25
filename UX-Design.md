@@ -77,7 +77,7 @@ We are going to pair up and work togtehr to fuy understand our user. Pull out a 
 
 **HOW:** How would the user like, prefer, that feature, functionlity to be presented?
 
-
+![](Images/activity.png)
 ## **U**ser e**X**pereince is the key
 
 To really acheive a successful UX design for a product it is important to know who our user is. Let's get to know our user.
